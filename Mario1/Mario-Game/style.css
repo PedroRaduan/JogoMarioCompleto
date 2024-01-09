@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+.image{
+    width: 100%;
+}
+
+
+#start{
+    font-size: 22px;
+}
+
+#start, #status{
+    font-size: 22px;
+    
+}
+
+#canvas{
+    margin-bottom: 45px;
+}
+
+.rodape{
+    background-color: white;
+    z-index: 999;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    line-height: 2;
+    font-size: 1.5rem;
+    font-weight: 800;
+    height: 4vh;
+    letter-spacing: 2.5px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-dialog{
+    width: 90%;
+}
+
+
+.intructionImage{
+    display: inline-block;
+    width: 45%;
+}
+
+video{
+    background: url('game_console.png');
+    margin-bottom: 100px;
+    background-position: center;
+    padding: 25px;
+    background-size: cover;
+}
